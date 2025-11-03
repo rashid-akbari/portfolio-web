@@ -1,0 +1,14 @@
+.education {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.education h2 {
+  color: #ff4c29;
+  margin-bottom: 20px;
+}
+
+.education p {
+  color: #ccc;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,29 @@
+.skills {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.skills h2 {
+  color: #ff4c29;
+  margin-bottom: 30px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skills li {
+  background: #1a1a1a;
+  padding: 15px 30px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.skills li:hover {
+  background: #ff4c29;
+}

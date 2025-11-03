@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  min-height: 100vh;
+}
+
+.intro {
+  flex: 1;
+}
+
+.intro h1 {
+  font-size: 3rem;
+}
+
+.intro h1 span {
+  color: #ff4c29;
+}
+
+.intro h2 span {
+  color: #ff4c29;
+}
+
+.intro p {
+  margin-top: 15px;
+  color: #aaa;
+  max-width: 500px;
+}
+
+.profile-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff4c29 50%, transparent 51%);
+  object-fit: cover;
+}
